@@ -38,5 +38,6 @@ function App() {
 export default App;
 
 export const Main = styled.main`
+  z-index: 1;
   
 `

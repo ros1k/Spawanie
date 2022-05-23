@@ -35,6 +35,7 @@ export const HeroWrapper = styled.div`
     align-items: center;
     position: relative;
     overflow: hidden;
+    z-index: -1;
     &:after{
         content:"";
         width: 100%;
@@ -88,10 +89,11 @@ export const HeroTitle = styled.h1`
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 80px;
     color: ${ThemeColors.Orange};
     span{
-        margin-left: -100px;
+        text-transform: capitalize;
+        margin-left: -80px;
         font-weight: 300;
         color:white;
     }

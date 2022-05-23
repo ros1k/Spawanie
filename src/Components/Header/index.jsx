@@ -27,11 +27,13 @@ export const HeaderWrapper = styled.header`
   justify-content: flex-start;
   flex-direction: row;
   position: fixed;
+  width: 1400px;
+  left: calc(50% - 700px);
   top: 0;
-  left: 0;
-  right: 0;
+  margin: 0 auto;
+
   height: ${props => props.isPageScrolled ? "75px" : "100px"};
-  z-index: 999;
+  z-index: 9999;
   //border-bottom:1px solid #dddddd55;
   transition: 0.3s ease;
  
