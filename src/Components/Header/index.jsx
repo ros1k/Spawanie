@@ -32,7 +32,7 @@ export const HeaderWrapper = styled.header`
   right: 0;
   height: ${props => props.isPageScrolled ? "75px" : "100px"};
   z-index: 999;
-  border-bottom:1px solid #dddddd55;
+  //border-bottom:1px solid #dddddd55;
   transition: 0.3s ease;
  
 `

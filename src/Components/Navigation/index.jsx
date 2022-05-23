@@ -18,7 +18,7 @@ const Navigation = () => {
                 <NavigationLink to="/kontakt">Kontakt</NavigationLink>
             </NavigationItem>
         </NavigationList>
-        <NavigationQuoteButton>Napisz o wycene</NavigationQuoteButton>
+        {/* <NavigationQuoteButton>Napisz o wycene</NavigationQuoteButton> */}
     </NavigationWrapper>
   )
 }
@@ -31,6 +31,7 @@ export const NavigationWrapper = styled.nav`
     justify-content: center;
     position: relative;
     margin-left: 60px;
+    width: 100%;
 
 `
 export const NavigationList = styled.ul`
@@ -57,7 +58,7 @@ export const NavigationItem = styled.li`
         height:4px;
         transform-origin: right center;
         transform: scale(0,1);
-        background-color: ${ThemeColors.Blue};
+        background-color: ${ThemeColors.Orange};
         opacity:1;
         transition: transform .25s cubic-bezier(.37,.31,.2,.85);
     }
@@ -72,7 +73,7 @@ export const NavigationItem = styled.li`
             transform: scale(1,1);
         }
         a{
-            color: ${ThemeColors.Blue};
+            color: ${ThemeColors.Orange};
         }
     }
 `
@@ -80,13 +81,14 @@ export const NavigationLink = styled(Link)`
     color:white;
     text-decoration: none;
     transition: 0.3s ease;
+    font-weight: 500;
     &:hover{
-        color:${ThemeColors.BlueLight};
+        color:${ThemeColors.Orange};
     }
 `
 export const NavigationQuoteButton = styled.button`
     margin-left: 100px;
-    background-color:${ThemeColors.Blue};
+    background-color:${ThemeColors.Orange};
     color:white;
     padding:15px 25px;
     border-radius: 5px;

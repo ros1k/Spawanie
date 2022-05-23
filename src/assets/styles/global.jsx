@@ -1,7 +1,14 @@
 export const ThemeColors = {
-    Blue: '#0A2463',
-    Red: '#FB3640',
-    Gray: '#605F5E',
-    BlueLight: '#247BA0',
-    Platinium: '#E2E2E2',
+    Orange: '#FF6900',
+    Gray: '#DFE0DF',
+    DarkGray: '#402E32',
+    Brown: '#693B22',
 };
+export const SecondaryColors = {
+    Orange: '#F58A07',
+    OrangeLight: '#F9AB55',
+    Blue: '#084887',
+    Gray: '#909CC2',
+    White: '#F7F5FB',
+}
+

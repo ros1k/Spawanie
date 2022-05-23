@@ -1,7 +1,10 @@
 import React, { useEffect,useState } from 'react'
+import styled from 'styled-components'
+
 import './App.css';
 
 import Header from './Components/Header';
+import Home from './Pages/Home';
 
 
 
@@ -25,8 +28,15 @@ function App() {
   return (
     <div className="App" ref={appRef}>
       <Header isPageScrolled={isPageScrolled}/>
+      <Main>
+          <Home/>
+      </Main>
     </div>
   );
 }
 
 export default App;
+
+export const Main = styled.main`
+  
+`
