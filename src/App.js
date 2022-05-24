@@ -1,4 +1,4 @@
-import Footer from 'Components/Footer/index';
+import Footer from './Components/Footer/index';
 import React, { useEffect,useState } from 'react'
 import styled from 'styled-components'
 
