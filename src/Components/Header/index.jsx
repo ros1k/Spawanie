@@ -27,8 +27,8 @@ export const HeaderWrapper = styled.header`
   justify-content: flex-start;
   flex-direction: row;
   position: fixed;
-  width: 1400px;
-  left: calc(50% - 700px);
+  width: 1200px;
+  left: calc(50% - 600px);
   top: 0;
   margin: 0 auto;
 

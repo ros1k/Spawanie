@@ -1,26 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
 import { ThemeColors } from '../../../assets/styles/global'
-import image from '../../../assets/images/welding3.jpg' 
+import image from '../../../assets/images/welding-5milsec-70percent.webp' 
 import video from '../../../assets/videos/pexels-kelly-lacy-6046365.mp4'
 
 const Hero = () => {
   return (
     <HeroWrapper>
         <HeroContent>
-            <HeroTitle> <span> Usługi </span> spawalnicze </HeroTitle>
+            <HeroTitle> <span> Spawanie </span> MiG/MAG/TIG </HeroTitle>
             <HeroDesc>Potrzebujesz coś naprawić lub przerobić ze stali czarnej? </HeroDesc>
             <HeroDesc> A może masz pomysł na jakieś krzesło lub stół z ciekawym kształtem w stylu loft.</HeroDesc>
             <HeroDesc> Zapraszam do kontaktu. </HeroDesc>
         </HeroContent>
-        <HeroVideo loop autoPlay>
+        {/* <HeroVideo loop autoPlay>
             <source
             src={video}
             type="video/mp4"
             />
             Your browser does not support the video tag.
-        </HeroVideo>
-        {/* <HeroImage src={image} alt="" /> */}
+        </HeroVideo> */}
+        { <HeroImage src={image} alt="" /> }
     </HeroWrapper>
   )
 }
@@ -66,6 +66,7 @@ export const HeroImage = styled.img`
     top:0;
     z-index: -1;
     width: 100%;
+    height: 100%;
   
 `
 

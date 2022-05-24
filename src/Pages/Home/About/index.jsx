@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import image from '../../../assets/images/about-image.jpg'
-import { ThemeColors } from '../../../assets/styles/global'
+import { ThemeColors,SecondaryColors } from '../../../assets/styles/global'
+
+
 const About = () => {
   return (
     <AboutWrapper>
@@ -12,9 +14,9 @@ const About = () => {
          <AboutContent>
                 <AboutTitle> <span> Usługi </span> spawalnicze </AboutTitle>
                 <AboutSpan>O MNIE</AboutSpan>
-                <AboutDesc>Potrzebujesz coś naprawić lub przerobić ze stali czarnej? </AboutDesc>
-                <AboutDescLight>A może masz pomysł na jakieś krzesło lub stół z ciekawym kształtem w stylu loft.</AboutDescLight>
-                <AboutDescLight>Zapraszam do kontaktu. </AboutDescLight>
+                <AboutDesc>Specjalizuje się spawanie w technologii MIG stali czarnej do grubości 10mm. Posiadam ponad 5 lat doświadczenia z tą technologią. </AboutDesc>
+                <AboutDescLight>Jestem w stanie też kłaść spoiny na materiale ze stali nierdzewnej.</AboutDescLight>
+                <AboutDescLight>Ostatnio doszkalam się w spawniu metodą TIG stali nierdzewnej oraz aluminum. </AboutDescLight>
          </AboutContent>
     </AboutWrapper>
   )
@@ -80,6 +82,7 @@ export const AboutContent = styled.div`
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: 50px;
 `
 export const AboutTitle = styled.h2`
     text-transform: uppercase;
@@ -100,10 +103,11 @@ export const AboutTitle = styled.h2`
 `
 export const AboutDesc = styled.p`
     max-width: 450px;
+    font-weight: 500;
     margin-bottom: 10px;
 `
 export const AboutDescLight = styled(AboutDesc)`
-    color: ${ThemeColors.Gray};
+    color: #AAAAAA;
 `
 export const AboutSpan = styled.span`
     position: absolute;
