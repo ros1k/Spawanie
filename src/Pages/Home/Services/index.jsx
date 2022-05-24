@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ThemeColors } from 'assets/styles/global'
+
 import bgImage from '../../../assets/images/welding3.jpg'
 
 const Services = () => {
