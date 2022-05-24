@@ -1,3 +1,4 @@
+import Footer from 'Components/Footer/index';
 import React, { useEffect,useState } from 'react'
 import styled from 'styled-components'
 
@@ -31,6 +32,7 @@ function App() {
       <Main>
           <Home/>
       </Main>
+      <Footer/>
     </div>
   );
 }

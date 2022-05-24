@@ -8,7 +8,8 @@ export const SecondaryColors = {
     Orange: '#F58A07',
     OrangeLight: '#F9AB55',
     Blue: '#084887',
-    Gray: '#909CC2',
+    Gray: '#333333',
     White: '#F7F5FB',
+    GrayLight: '#909CC2',
 }
 
