@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { ThemeColors } from '../../../assets/styles/global'
 import image from '../../../assets/images/welding-5milsec-70percent.webp' 
-import video from '../../../assets/videos/pexels-kelly-lacy-6046365.mp4'
+
 
 const Hero = () => {
   return (
@@ -13,13 +13,6 @@ const Hero = () => {
             <HeroDesc> A może masz pomysł na jakieś krzesło lub stół z ciekawym kształtem w stylu loft.</HeroDesc>
             <HeroDesc> Zapraszam do kontaktu. </HeroDesc>
         </HeroContent>
-        {/* <HeroVideo loop autoPlay>
-            <source
-            src={video}
-            type="video/mp4"
-            />
-            Your browser does not support the video tag.
-        </HeroVideo> */}
         { <HeroImage src={image} alt="welding" /> }
     </HeroWrapper>
   )
@@ -48,17 +41,7 @@ export const HeroWrapper = styled.div`
     }
     
 `
-export const HeroVideo = styled.video`
-    position: absolute;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    width: 100%; 
-    height: auto; 
-    z-index: -1;
-`
+
 
 export const HeroImage = styled.img`
     position: absolute;
