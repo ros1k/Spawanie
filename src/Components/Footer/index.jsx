@@ -1,4 +1,4 @@
-import { ThemeColors, SecondaryColors } from 'assets/styles/global'
+import { ThemeColors, SecondaryColors } from '../../assets/styles/global'
 import React from 'react'
 import styled from 'styled-components'
 import Logo from '../Logo'
