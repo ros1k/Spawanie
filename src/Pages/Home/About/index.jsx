@@ -9,7 +9,7 @@ const About = () => {
     <AboutWrapper>
          <AboutImageWrapper>
              <div></div>
-             <AboutImage src={image} alt=""/>
+             <AboutImage src={image} alt="welding frames"/>
          </AboutImageWrapper>
          <AboutContent>
                 <AboutTitle> <span> Usługi </span> spawalnicze </AboutTitle>
@@ -107,7 +107,7 @@ export const AboutDesc = styled.p`
     margin-bottom: 10px;
 `
 export const AboutDescLight = styled(AboutDesc)`
-    color: #AAAAAA;
+    color: ${SecondaryColors.Gray};
 `
 export const AboutSpan = styled.span`
     position: absolute;

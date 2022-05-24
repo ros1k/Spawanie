@@ -9,7 +9,7 @@ const Logo = ({isPageScrolled}) => {
 
   return (
     <LogoWrapper >
-        <LogoIMG isPageScrolled={isPageScrolled} src={LogoImage} alt="Logo usługi spawalnicze" />
+        <LogoIMG isPageScrolled={isPageScrolled} src={LogoImage} width="auto" height="auto" alt="Logo usługi spawalnicze" />
     </LogoWrapper>
   )
 }

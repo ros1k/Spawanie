@@ -12,11 +12,11 @@ const Footer = () => {
         </FooterLogo>
         <FooterContent>
             <FooterText>
-            <img src="https://img.icons8.com/ios/50/000000/address--v1.png"/>
+            <img src="https://img.icons8.com/ios/50/000000/address--v1.png" alt='Google map icon'/>
             <FooterLink to="https://goo.gl/maps/e3cPvBv5a4H5r8xq7"> Atalin 34a, 26-700</FooterLink> 
                 </FooterText>
             <FooterText>
-                <img src="https://img.icons8.com/ios/50/000000/phone.png"/>
+                <img src="https://img.icons8.com/ios/50/000000/phone.png" alt='Phone icon'/>
                 515 553 646
                 </FooterText>
         </FooterContent>

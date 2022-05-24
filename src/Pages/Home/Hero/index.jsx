@@ -20,7 +20,7 @@ const Hero = () => {
             />
             Your browser does not support the video tag.
         </HeroVideo> */}
-        { <HeroImage src={image} alt="" /> }
+        { <HeroImage src={image} alt="welding" /> }
     </HeroWrapper>
   )
 }

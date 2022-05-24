@@ -13,8 +13,10 @@ const Header = ({isPageScrolled}) => {
 
   return (
     <HeaderWrapper isPageScrolled={isPageScrolled}>
-        <Logo isPageScrolled={isPageScrolled} />
-        <Navigation isPageScrolled={isPageScrolled} />
+      <PageHeader isPageScrolled={isPageScrolled}>
+          <Logo isPageScrolled={isPageScrolled} />
+          <Navigation isPageScrolled={isPageScrolled} />
+      </PageHeader>
     </HeaderWrapper>
   )
 }
@@ -22,19 +24,25 @@ const Header = ({isPageScrolled}) => {
 export default Header
 
 export const HeaderWrapper = styled.header`
-  background-color: transparent;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  transition: 0.3s ease;
+  background-color: ${props => props.isPageScrolled ? '#000000c0' : 'transparent'};
+`
+export const PageHeader = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  position: fixed;
   width: 1200px;
   left: calc(50% - 600px);
-  top: 0;
+
   margin: 0 auto;
 
   height: ${props => props.isPageScrolled ? "75px" : "100px"};
-  z-index: 9999;
+
   //border-bottom:1px solid #dddddd55;
   transition: 0.3s ease;
- 
+  
 `
