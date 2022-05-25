@@ -13,7 +13,7 @@ const Services = () => {
 
                       </ServicesIcon>
                       <ServicesListItemDescription>
-                          <ServicesTitle> Dlaczego warto nawiązać współpracę ze mną</ServicesTitle>
+                          <ServicesTitle> Lorem ipsum dolor sit, </ServicesTitle>
                           <ServicesDescription>wise is one of the worlds leading managment consulting firms</ServicesDescription>
                       </ServicesListItemDescription>
                     </ServicesListItem>
@@ -22,7 +22,7 @@ const Services = () => {
 
                       </ServicesIcon>
                       <ServicesListItemDescription>
-                          <ServicesTitle> Dlaczego warto nawiązać współpracę ze mną</ServicesTitle>
+                          <ServicesTitle> Lorem ipsum dolor sit,</ServicesTitle>
                           <ServicesDescription>wise is one of the worlds leading managment consulting firms</ServicesDescription>
                       </ServicesListItemDescription>
                     </ServicesListItem>
@@ -31,7 +31,7 @@ const Services = () => {
 
                       </ServicesIcon>
                       <ServicesListItemDescription>
-                          <ServicesTitle> Dlaczego warto nawiązać współpracę ze mną</ServicesTitle>
+                          <ServicesTitle> Lorem ipsum dolor sit,</ServicesTitle>
                           <ServicesDescription>wise is one of the worlds leading managment consulting firms</ServicesDescription>
                       </ServicesListItemDescription>
                     </ServicesListItem>
