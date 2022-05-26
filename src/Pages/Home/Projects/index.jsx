@@ -9,7 +9,7 @@ import image4 from '../../../assets/images/projects/burta-min.jpg'
 
 const Projects = () => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="projects">
         <ProjectsTitle>
             Ostatnie Projekty
         </ProjectsTitle>

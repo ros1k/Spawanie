@@ -12,10 +12,10 @@ const Navigation = () => {
                 <NavigationLink  to="/">Strona główna</NavigationLink>
             </NavigationItem>
             <NavigationItem>
-                <NavigationLink to="/projekty">Projekty</NavigationLink>
+                <NavigationLink to="#projects">Projekty</NavigationLink>
             </NavigationItem>
             <NavigationItem>
-                <NavigationLink to="/kontakt">Kontakt</NavigationLink>
+                <NavigationLink to="#footer">Kontakt</NavigationLink>
             </NavigationItem>
         </NavigationList>
         {/* <NavigationQuoteButton>Napisz o wycene</NavigationQuoteButton> */}

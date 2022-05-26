@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <PageFooter>
+    <PageFooter id='footer'>
         <FooterLogo>
             <Logo/>
         </FooterLogo>
