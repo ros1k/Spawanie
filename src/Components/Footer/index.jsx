@@ -33,7 +33,7 @@ export const PageFooter = styled.footer`
     display: flex;
     padding: 25px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 `
 export const FooterLogo = styled.div``
 export const FooterContent = styled.div`
